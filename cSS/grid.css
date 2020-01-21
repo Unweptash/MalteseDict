@@ -20,20 +20,19 @@
 
 #kontakt{
   grid-column: 1/13;
-  grid-row: 11/-1;
-  text-align: center;
+  grid-row: 12/13;
 }
 
 #wotd{
   grid-column: 5/9;
-  grid-row: 5/8;
+  grid-row: 3/5;
   text-align: center;
   justify-content: center;
 }
 
 #text{
   grid-column: 1/13;
-  grid-row: 6/11;
+  grid-row: 6/12;
 }
 
 #logga{
@@ -48,6 +47,17 @@
   margin: 1em;
 }
 
+#glosor{
+  grid-column: 6/8;
+  grid-row: 1/2;
+  margin: 1em;
+}
+
+#kontaktsida{
+  grid column: 9/11;
+  grid-row: 1/2;
+}
+
 #translation{
   grid-column: 6/8;
   grid-row: 1/2;
@@ -59,8 +69,20 @@
       grid-column: 1/-1;
       text-align: center;
     }
+
     #rubrik{
       grid-column: 1/-1;
       grid-row: 2/7;
+    }
+
+    #logga{
+      grid-column: 1/-1;
+      grid-row: 1/2;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    #logga{
+
     }
   }

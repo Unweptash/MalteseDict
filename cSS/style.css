@@ -1,36 +1,40 @@
 body{
-  background-color:gray;
+  background-color: rgb(237, 66, 66);
   margin: 0px;
   padding: 0px;
     font-family: "Lato", sans-serif;
   }
 
 #menu{
-  background-color: red;
+  background-color: rgb(237, 66, 66);
 }
 
 #kontakt{
-  background-color: yellow;
+  background-color: rgb(237, 66, 66);
   margin: 0px;
   padding: 0px;
 }
 #rubrik{
-  background-color: green;
+  background-color: white;
   background-image:
 }
 #text{
-  background-color: blue;
+  background-color: white;
   margin: 0px;
   padding: 0px;
 }
 #wotd{
   background-color: white;
-  
+  Margin: 80px;
+  border-radius: 25px;
 }
 #logga{
   background-color: white;
 }
 #fakta{
+  background-color: white;
+}
+#Glosor{
   background-color: white;
 }
 #translation{
