@@ -1,0 +1,39 @@
+body{
+  background-color:gray;
+  margin: 0px;
+  padding: 0px;
+    font-family: "Lato", sans-serif;
+  }
+
+#menu{
+  background-color: red;
+}
+
+#kontakt{
+  background-color: yellow;
+  margin: 0px;
+  padding: 0px;
+}
+#rubrik{
+  background-color: green;
+  background-image:
+}
+#text{
+  background-color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+#wotd{
+  background-color: white;
+  
+}
+#logga{
+  background-color: white;
+}
+#fakta{
+  background-color: white;
+}
+#translation{
+  background-color: white;
+}
+.
