@@ -1,43 +1,202 @@
-body{
+body {
   background-color: rgb(237, 66, 66);
   margin: 0px;
   padding: 0px;
-    font-family: "Lato", sans-serif;
-  }
-
-#menu{
-  background-color: rgb(237, 66, 66);
+  font-family: "Lato", sans-serif;
 }
 
-#kontakt{
+#kontakt1 {
   background-color: rgb(237, 66, 66);
-  margin: 0px;
+  margin-left: 110px;
+  padding: 0px;
+  text-align: left;
+}
+
+#kontakt2 {
+  background-color: rgb(237, 66, 66);
+  margin-left: 130px;
+  padding: 0px;
+  text-align: left;
+}
+
+#imgleft {
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+#imgright {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#backgroundimg1 {
+  background-color: white;
+  background-image: url(../img/Valletta2.jpg);
+  margin-top: 120px;
   padding: 0px;
 }
-#rubrik{
+
+#backgroundimg2 {
   background-color: white;
-  background-image:
-}
-#text{
-  background-color: white;
-  margin: 0px;
+  background-image: url(../img/belt.jpg);
+  margin-top: 120px;
   padding: 0px;
 }
-#wotd{
+
+#backgroundimg3 {
   background-color: white;
-  Margin: 80px;
+  background-image: url(../img/mtarfa.jpg);
+  margin-top: 120px;
+  padding: 0px;
+}
+
+#text {
+  background-color: white;
+  margin: 0px;
+  padding: 20px;
+  text-align: left;
+}
+
+#text2 {
+  background-color: white;
+  margin: 0px;
+  padding: 30px;
+  text-align: left;
+  /* bildlänk till höger */
+}
+
+#text3 {
+  background-color: white;
+  margin-top: 60px;
+  margin-right: 20px;
+  padding: 30px;
+  text-align: center;
+  /* bildlänk till vänster */
+}
+
+#wotd {
+  background-color: white;
+  margin-bottom: 83px;
+  margin-top: 83px;
+  margin-left: 75px;
+  margin-right: 75px;
   border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  justify-content: center;
+  color: black;
 }
-#logga{
+
+#logga {
+  background-color: white;
+  position: fixed;
+  margin: 1em;
+}
+
+#hem {
+  text-align: center;
+  border-radius: 20px;
+  margin: 1em;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#fakta {
+  text-align: center;
+  border-radius: 20px;
+  margin: 1em;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#glosor {
+  text-align: center;
+  border-radius: 20px;
+  margin: 1em;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#glosor:hover {
+  background-color: rgb(200, 50, 50);
+  transition-delay: 0.05s;
+  margin-bottom: 36px;
+}
+
+#fakta:hover {
+  background-color: rgb(200, 50, 50);
+  transition-delay: 0.05s;
+  margin-bottom: 36px;
+}
+
+#hem:hover {
+  background-color: rgb(200, 50, 50);
+  transition-delay: 0.05s;
+  margin-bottom: 36px;
+}
+
+#imgtext2 {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+#imgtext3 {
+  margin-bottom: 120px;
+  margin-left: 60px;
+  margin-top: 110px;
+  margin-right: 20px;
+}
+
+#profilbild {
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+#profiltext {
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+}
+
+#text4 {
+  background-color: white;
+  margin-top: 40px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+#tabell {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
   background-color: white;
 }
-#fakta{
-  background-color: white;
-}
-#Glosor{
-  background-color: white;
-}
-#translation{
-  background-color: white;
-}
-.
