@@ -50,7 +50,7 @@ body {
   padding: 0px;
 }
 
-#text {
+#blank {
   background-color: white;
   margin: 0px;
   padding: 20px;
@@ -88,12 +88,14 @@ body {
   text-align: center;
   justify-content: center;
   color: black;
+  /* Det mesta här är för placeringen av texten samt för att runda av kanterna */
 }
 
 #logga {
   background-color: white;
   position: fixed;
   margin: 1em;
+  /* fast logga med "position: fixed;"*/
 }
 
 #hem {
@@ -102,10 +104,10 @@ body {
   margin: 1em;
   padding: 10px;
   color: white;
-  text-decoration: none;
   font-size: 20px;
   cursor: pointer;
   margin-top: 10px;
+  /* Kod för att få denna div att se ut som en knapp som man kan trycka på tillsammans med #hem:hover */
 }
 
 #fakta {
@@ -118,6 +120,7 @@ body {
   font-size: 20px;
   cursor: pointer;
   margin-top: 10px;
+  /* Kod för att få denna div att se ut som en knapp som man kan trycka på tillsammans med #fakta:hover */
 }
 
 #glosor {
@@ -130,24 +133,28 @@ body {
   font-size: 20px;
   cursor: pointer;
   margin-top: 10px;
+  /* Kod för att få denna div att se ut som en knapp som man kan trycka på tillsammans med #glosor:hover */
 }
 
 #glosor:hover {
   background-color: rgb(200, 50, 50);
   transition-delay: 0.05s;
   margin-bottom: 36px;
+  /* lite finslipning på knapparna */
 }
 
 #fakta:hover {
   background-color: rgb(200, 50, 50);
   transition-delay: 0.05s;
   margin-bottom: 36px;
+  /* lite finslipning på knapparna */
 }
 
 #hem:hover {
   background-color: rgb(200, 50, 50);
   transition-delay: 0.05s;
   margin-bottom: 36px;
+  /* lite finslipning på knapparna */
 }
 
 #imgtext2 {
@@ -195,8 +202,16 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+  /* Lite kontrast i färgerna */
+
 }
 
 tr:nth-child(odd) {
   background-color: white;
+  /* Lite kontrast i färgerna */
+}
+
+.maltese{
+  cursor: pointer;
+  /* Indikerar att användaren kan trycka på den */
 }

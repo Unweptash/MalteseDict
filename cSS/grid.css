@@ -7,88 +7,98 @@
 }
 
 #backgroundimg1 {
+  /* Bakgrundsbild till "Hem" */
   grid-column: 1/-1;
   grid-row: 1/6;
 }
 
 #backgroundimg2 {
+  /* Bakgrundsbild till "Glosor" */
   grid-column: 1/-1;
   grid-row: 1/6;
 }
 
 #backgroundimg3 {
-  grid-column: 1/-1;
-  grid-row: 1/6;
-}
-
-#backgroundimg4 {
+ /* Bakgrundsbild till "Fakta" */
   grid-column: 1/-1;
   grid-row: 1/6;
 }
 
 #kontakt1 {
+  /* All kontaktinformation till vänster */
   grid-column: 3/7;
   grid-row: 12/-1;
 }
 
 #kontakt2 {
+  /* All kontaktinformation till höger */
   grid-column: 7/13;
   grid-row: 12/-1;
 }
 
 #imgleft {
+  /* Instagram & Youtube */
   grid-column: 5/7;
   grid-row: 12/-1;
 }
 
 #imgright {
+  /* Email & Soundcloud */
   grid-column: 9/13;
   grid-row: 12/-1;
 }
 
 #wotd {
+  /* mMaltesiskt ord på "hem" sidan */
   grid-column: 5/9;
   grid-row: 3/5;
 }
 
-#text {
+#blank {
+  /* Ett vitt lager som all kod vilar på */
   grid-column: 1/13;
   grid-row: 6/12;
 }
 
 #text2 {
+  /* Texten till vänster om #imgtext2 */
   grid-column: 1/8;
   grid-row: 6/12;
 }
 
 #text3 {
+  /* Texten till höger om #imgtext3 */
   grid-column: 7/13;
   grid-row: 8/12;
 }
 
 #logga {
+  /* En fast logga i vänstra högra hörnet på alla sidor */
   grid-column: 1/2;
   grid-row: 1/2;
 }
 
 #fakta {
+  /* Ett av de 3 knapparna som tar dig till Fakta */
   grid-column: 7/9;
   grid-row: 1/2;
 }
 
 #glosor {
+  /* Ett av de 3 knapparna som tar dig till Glosor */
   grid-column: 5/7;
   grid-row: 1/2;
 }
 
 #hem {
+  /* Ett av de 3 knapparna som tar dig till Hem */
   grid-column: 3/5;
   grid-row: 1/2;
 }
 
 #imgtext2 {
   grid-column: 8/12;
-  grid-row: 6/10;
+  grid-row: 6/9;
 }
 
 #imgtext3 {
@@ -132,6 +142,7 @@
 }
 
 @media screen and (max-width: 1080px) {
+  /* media queries till Ipad */
   #text3 {
     grid-column: 8/13;
   }
@@ -173,6 +184,15 @@
 
   #text {
     grid-row: 6/12;
+  }
+
+  #blank {
+    grid-row: 5/12;
+    grid-column: 1/-1;
+  }
+
+  #profiltext {
+    opacity: 0;
   }
 }
 
@@ -374,5 +394,10 @@
       grid-row: 12/-1;
     }
 
-    #profilbild {}
+    @media screen and (max-width: 1080px) {
+      #text3 {
+        grid-column: 8/13;
+      }
+
   }
+}
